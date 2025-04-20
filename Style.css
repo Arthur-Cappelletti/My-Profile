@@ -1,0 +1,70 @@
+/* Base */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Cards */
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* Bouton */
+.btn-blue {
+  background-color: #0056b3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #003f80;
+}
+
+/* Listes sociales */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.list-inline i {
+  font-size: 24px;
+  color: #333;
+}
+
+.list-inline a:hover i {
+  color: #0056b3;
+}
